@@ -3,7 +3,8 @@ function FindProxyForURL(url, host) {
     ".claude.ai",
     ".claude.com",
     ".anthropic.com",
-    ".claudeusercontent.com"
+    ".claudeusercontent.com",
+    "whatismyipaddress.com"
   ];
 
   for (var i = 0; i < proxyDomains.length; i++) {
